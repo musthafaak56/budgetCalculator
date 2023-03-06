@@ -1,0 +1,124 @@
+/* <!-- font-family: 'Poppins', sans-serif; -->
+<!-- font-family: 'Philosopher', sans-serif; --> */
+body
+{
+    background-color: black;
+    /* background-image: linear-gradient(to right,red,yellow); */
+    background-image: linear-gradient(to bottom, #1abc9c, #3498db);
+}
+#logoutrow
+{
+    display: flex;
+    justify-content: end;
+}
+.logoimg
+{
+    width: 30px;
+    filter: brightness(100%) invert(100%);
+}
+#logotext
+{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+}
+/* #logoutBtn
+{
+    font-family: 'Philosopher', sans-serif;
+} */
+.row1
+{
+    display: flex;
+    justify-content: center;
+}
+.box1
+{
+    /* background-image: linear-gradient(to bottom right,rgba(0, 0, 0, 0.539),rgba(0, 0, 255, 0.608)); */
+    /* background-color: #001A64; */
+    background-color: #043263;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 20px 20px 20px;
+}
+.inrow2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rw3
+{
+    /* background-color: #F13E51; */
+    background-image: linear-gradient(to top left, #15856f53, #3498db35);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 15px;
+}
+.rw4
+{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.rw6
+{
+    display: flex;
+    justify-content: center;
+}
+.rw5
+{
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 8px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: 0.5s;
+}
+.rw5:hover
+{
+    box-shadow: 0px 0px 20px 2px rgba(255, 0, 0, 0.753);
+    transition: 0.5s;
+}
+#expicon
+{
+    background-color: #eb3510;
+    background-image: linear-gradient(to right bottom,red,rgba(70, 8, 8, 0.471));
+    padding: 5px 10px 5px 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: white;
+}
+#incicon
+{
+    background-color: #10eb10;
+    background-image: linear-gradient(to right bottom,green,rgba(3, 45, 3, 0.553));
+    padding: 5px 10px 5px 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: white;
+}
+.exptext
+{
+    /* font-size: 150%; */
+    font-family: 'Quicksand', sans-serif;
+}
+.typeText
+{
+    font-family: 'Poppins', sans-serif;
+}
+#incomeDisplay
+{
+    border: 1px solid green; 
+}
+#incomeDisplay:hover
+{
+    box-shadow: 0px 0px 20px 4px rgba(5, 118, 82, 0.787);
+}
+/* #texpense
+{
+    justify-content: flex-end;
+} */
+/* background-color: #F13E51; */

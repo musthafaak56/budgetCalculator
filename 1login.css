@@ -1,0 +1,79 @@
+body
+{
+    /* background-color: rgb(27, 4, 4); */
+    /* background-color: #0073ff; */
+    background-color: #0b0000;
+    /* background: linear-gradient(to bottom right, #00098b, #0073ff); */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    background-position: center;
+}
+.row1
+{
+    display: flex;
+    justify-content: center;
+}
+.card-body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.box1
+{
+    margin: 10%;
+    /* background: linear-gradient(to top, #278975, #2870a1, #2b36ae); */
+    background: linear-gradient(to bottom, #1abc9c, #3498db);
+    border: 1px solid #3498db;
+    border-radius: 0px 25px 0px 25px;
+    transition: 0.5s;
+}
+.box1:hover
+{
+    box-shadow: 0px 0px 90px 3px rgba(5, 90, 19, 0.549);
+    transition: 0.5s;
+}
+.box1:hover .logoimg
+{
+    /* transform: scale(0.9);
+    transform: rotate(20deg); */
+    transform: scale(0.9) rotate(-51deg);
+    transition: 0.5s;
+}
+.box1:hover .logotext
+{
+    /* font-weight: bolder; */
+    transition: 0.3s;
+}
+.box1:hover .labeltext
+{
+    /* transform: scale(1.1); */
+    /* font-weight: bolder; */
+    transition: 0.5s;
+} 
+.logoimg
+{
+    transition: 0.5s;
+}
+.logotext
+{
+    font-size: 25px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+.allinputs
+{
+    border: #1abc9c;
+    border-radius: 20px;
+}
+.allinputs:focus
+{
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 10px 2px rgba(10, 10, 129, 0.495);
+}
+.allinputs:focus .labeltext
+{
+    transform: scale(1.4);
+}
