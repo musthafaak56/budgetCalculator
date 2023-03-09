@@ -30,8 +30,8 @@ function signup(){
     }
     else
     {
-        var gymMemberString=JSON.stringify(budgetObj);
-        localStorage.setItem(budgetObj.uId,gymMemberString);
+        var budgetUserString=JSON.stringify(budgetObj);
+        localStorage.setItem(budgetObj.uId,budgetUserString);
         alert('Registered Successfully!');
         // window.location.replace("0login.html")
         window.location.href="1login.html";
